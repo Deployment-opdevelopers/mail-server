@@ -1,0 +1,23 @@
+{
+    "from": {
+        "name": "Op-Developers",
+        "email": "omprakash@opdevelopers.live"
+    },
+    "personalizations": [
+        {
+            "to": [
+                {
+                    "name": "user",
+                    "email": "op1999mina@gmail.com"
+                }
+            ],
+            "dynamic_template_data": {
+                "code": "532252",
+                "company": "SOD-DEVELOPERS",
+                "email": "omprakash.bairwa.iitbhu20@gmail.com",
+                "userName": "SOD-DEV"
+            }
+        }
+    ],
+    "template_id": "d-45d5309937ac4affb0c9a221e761dccb"
+}
