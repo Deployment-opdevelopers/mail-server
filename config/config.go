@@ -1,11 +1,11 @@
 package config
 
 import (
-	"log"
+	// "log"
 	"os"
 	"strconv"
 
-	"github.com/joho/godotenv"
+	// "github.com/joho/godotenv"
 )
 
 type Config struct {
