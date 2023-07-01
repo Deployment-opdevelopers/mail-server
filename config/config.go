@@ -51,22 +51,22 @@ func init() {
 
 	configFilePath := "./config/.env.dev"
 
-	switch appEnv {
-	case "production":
-		configFilePath = "./config/.env.prod"
-		break
-	case "stage":
-		configFilePath = "./config/.env.stage"
-		break
-	}
-	log.Println("reading env from: " + configFilePath)
+	// switch appEnv {
+	// case "production":
+	// 	configFilePath = "./config/.env.prod"
+	// 	break
+	// case "stage":
+	// 	configFilePath = "./config/.env.stage"
+	// 	break
+	// }
+	// log.Println("reading env from: " + configFilePath)
 
-	e := godotenv.Load(configFilePath)
+	// e := godotenv.Load(configFilePath)
 
-	if e != nil {
-		log.Println("error loading .env: ", e)
-		panic(e.Error())
-	}
+	// if e != nil {
+	// 	log.Println("error loading .env: ", e)
+	// 	panic(e.Error())
+	// }
 
 	config.AppName = os.Getenv("SERVICE_NAME")
 	config.MailName = os.Getenv("MAIL_NAME")
