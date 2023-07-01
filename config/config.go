@@ -49,7 +49,7 @@ func init() {
 		appEnv = "dev"
 	}
 
-	configFilePath := "./config/.env.dev"
+	// configFilePath := "./config/.env.dev"
 
 	// switch appEnv {
 	// case "production":
